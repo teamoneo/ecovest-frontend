@@ -45,19 +45,19 @@ export const ExplanationContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  p {
+    margin: 15px 0;
+    color: #4d4d4f;
+  }
   section {
     display: flex;
     width: 100%;
     flex-direction: row;
     align-items: space-between;
-    p {
-      color: #4d4d4f;
-    }
     div {
       justify-content: flex-end;
       align-items: center;
       p {
-        margin: 15px;
         font-size: 12px;
       }
       img {
