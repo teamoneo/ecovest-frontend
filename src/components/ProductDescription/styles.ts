@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 80px 0;
+  padding: 80px 15px;
 
   div {
     h1 {
@@ -37,5 +37,12 @@ export const Container = styled.div`
 
   img {
     width: 40%;
+    @media (max-width: 800px) {
+      display: none;
+    }
+
+    @media (max-width: 415px) {
+      display: none;
+    }
   }
 `;

@@ -15,6 +15,14 @@ const globalStyle = createGlobalStyle`
   body {
     font-family: Ubuntu;
   }
+
+  @media (max-width: 700px) {
+    font-size: 60%;
+  }
+
+  @media (max-width: 415px) {
+    font-size: 40%
+  }
 `;
 
 export default globalStyle;
