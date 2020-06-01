@@ -2,11 +2,11 @@ import React from 'react';
 
 import logoImg from '../../assets/logo.svg';
 
-import { Container, BlankSpace } from './styles';
+import { Container, Wrap } from './styles';
 
 const Header: React.FC = () => {
   return (
-    <>
+    <Wrap>
       <Container>
         <img src={logoImg} alt="Ecovest" />
         <div>
@@ -15,8 +15,7 @@ const Header: React.FC = () => {
           <button type="button">Abra sua conta</button>
         </div>
       </Container>
-      <BlankSpace />
-    </>
+    </Wrap>
   );
 };
 

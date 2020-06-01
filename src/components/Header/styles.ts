@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
 
+export const Wrap = styled.div`
+  display: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #7159c1;
+  margin-bottom: 95px;
+`;
+
 export const Container = styled.div`
   display: flex;
   align-items: center;
@@ -9,7 +17,6 @@ export const Container = styled.div`
   padding: 18px 0;
   width: 100%;
   background-color: #fff;
-
   * {
     font-size: 20px;
   }
@@ -57,8 +64,4 @@ export const Container = styled.div`
       display: none;
     }
   }
-`;
-
-export const BlankSpace = styled.div`
-  height: 95px;
 `;
