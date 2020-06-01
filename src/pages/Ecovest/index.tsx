@@ -1,5 +1,13 @@
 import React from 'react';
 
-const Ecovest: React.FC = () => <h1>Hello, world!</h1>;
+import Header from '../../components/Header';
+import ProductDescription from '../../components/ProductDescription';
+
+const Ecovest: React.FC = () => (
+  <>
+    <Header />
+    <ProductDescription />
+  </>
+);
 
 export default Ecovest;
